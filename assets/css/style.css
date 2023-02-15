@@ -6,7 +6,7 @@
 }
 
 .botones-nav{
-    display:inline-block;
+    display:flex;
     position:absolute;
     top: 3vh;
     right:3vw;
@@ -26,16 +26,14 @@ a[href="#"]{
 }
 
 nav a{
-    display: inline-block;
     color: white;
     background-color: rgb(29, 18, 183);
-    width: 4rem;
+    width: 6rem;
     height: 1rem;
     padding: 0.5rem;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    position: relative;
     top: 3vh;
     right: 3vw;
 }
@@ -48,3 +46,13 @@ nav a{
     height:50%;
     width: 70%;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: 1rem 6rem;
+}
+    
