@@ -52,6 +52,7 @@ a[href="#"]{
 }
 
 nav a{ 
+    display:flex;
     color: white;
     background-color: rgb(29, 18, 183);
     width: 7rem;
