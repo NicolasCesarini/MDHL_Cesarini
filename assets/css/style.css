@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Comic Sans MS", "Comic Sans";
 }
 
@@ -12,6 +13,30 @@
     right:3vw;
 }
 
+.logo{
+    width: 300px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.mapas{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.texto {
+    margin: 1rem 5rem;
+    align-self: center;
+}
+
 header img{
     width:100%;
     height: 20rem;
@@ -20,31 +45,22 @@ header h2{
     text-align: center;
     border: black solid 1px;
 }
+
 a[href="#"]{
     background-color: green;
     color: aliceblue;
 }
 
-nav a{
+nav a{ 
     color: white;
     background-color: rgb(29, 18, 183);
-    width: 6rem;
-    height: 1rem;
+    width: 7rem;
+    height: auto;
     padding: 0.5rem;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     font-weight: bold;
-    top: 3vh;
-    right: 3vw;
-}
-
-.logo{
-    width: 300px;
-}
-.texto{
-    display: inline-block;
-    height:50%;
-    width: 70%;
 }
 
 main{
@@ -52,7 +68,23 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90vw;
-    margin: 1rem 6rem;
+    width: 100%;
+    height: auto;
+    background-color: rgb(119, 255, 0);
+}
+
+table {
+    border: 1px solid black;
+    margin: 1rem auto;
+}
+
+th,
+tr,
+td {
+    padding: 0.5rem;
+}
+
+fieldset{
+    margin: 2rem ;
 }
     
